@@ -101,4 +101,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+alias shutdown="shutdown now"
+alias restart="shutdown -r now"
+alias reboot="shutdown -r now"
+alias sleep="systemctl suspend"
+
 export PATH=~/bin:$PATH
